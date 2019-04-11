@@ -1,0 +1,29 @@
+{
+    "user":[
+        {"id": 1,
+        "nome": "Jefferson Henrique",
+        "idade":18,
+        "sexo": "Mascuiino",
+        "endereco": "Vila Angélica  Rua : 02",
+        "cidade":"Timon",
+        "UF": "MA"},
+        {
+        "id": 2,
+        "nome": "Patricia",
+        "idade":40,
+        "sexo": "Feminino",
+        "endereco": "Vila Angélica  Rua : 02",
+        "cidade":"Timon",
+        "UF": "MA"
+        },
+        {
+        "id": 3,
+        "nome": "Pedro",
+        "idade":16,
+        "sexo": "Masculino",
+        "endereco": "Vila Angélica  Rua : 02",
+        "cidade":"Timon",
+        "UF": "MA"
+        }
+    ]
+}
