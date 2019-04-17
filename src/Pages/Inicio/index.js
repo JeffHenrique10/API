@@ -3,7 +3,7 @@ import {View, Text, StyleSheet, TouchableOpacity, ScrollView} from 'react-native
 import api from '../../axios';
 import Users from '../../Componentes/Users';
 
-export default class inicio extends Component{
+export default class Inicio extends Component{
     state={
       users:[],
     };
@@ -18,7 +18,7 @@ export default class inicio extends Component{
         return (
         <View style={styles.container}>
             <View style={styles.view2}>
-                <Text style={styles.texto}>LISTA DE USUÁRIOS</Text>
+                <Text style={styles.texto}>USUÁRIOS</Text>
             </View>
               <ScrollView>
                 {users.map( user =>(  
@@ -51,6 +51,7 @@ export default class inicio extends Component{
       flex: 1,
       justifyContent: 'center',
       marginTop: 30,
+      backgroundColor:'#EEE'
     },
     view2: {
       alignItems: 'center',
@@ -59,5 +60,7 @@ export default class inicio extends Component{
     texto:{
       fontSize: 28,
       color:'#00000f',
+      borderRadius: 10,
+      borderColor: 'red',
     }
   });

@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
 
   email:{
     fontSize:12,
-    color: '#A9A9A9',
+    color: '#00000f',
   },
 
   icone:{
